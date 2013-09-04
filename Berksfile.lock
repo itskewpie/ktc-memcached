@@ -1,6 +1,6 @@
 {
   "sources": {
-    "ktc-database": {
+    "ktc-memcached": {
       "path": "."
     },
     "ktc-etcd": {
@@ -23,16 +23,6 @@
       "git": "git://github.com/stackforge/cookbook-openstack-common.git",
       "ref": "eb5eed7126b6a6efbaf803e8a594d610cf661e97"
     },
-    "openstack-compute": {
-      "locked_version": "7.0.0",
-      "git": "git://github.com/stackforge/cookbook-openstack-compute.git",
-      "ref": "5cf38c43459604f0d0bf8a545a469629af93bf71"
-    },
-    "openstack-dashboard": {
-      "locked_version": "7.0.0",
-      "git": "git://github.com/stackforge/cookbook-openstack-dashboard.git",
-      "ref": "89009e26a415137b808140b59d6915f6e97b39e3"
-    },
     "openstack-identity": {
       "locked_version": "7.0.0",
       "git": "git://github.com/stackforge/cookbook-openstack-identity.git",
@@ -43,20 +33,10 @@
       "git": "git://github.com/stackforge/cookbook-openstack-image.git",
       "ref": "722a973a09ef7c2d58ac010cd0659ca48a81c266"
     },
-    "openstack-metering": {
-      "locked_version": "7.0.0",
-      "git": "git://github.com/stackforge/cookbook-openstack-metering.git",
-      "ref": "16af04fa8b5fb0abc55928c38f3121247614e3fe"
-    },
-    "openstack-network": {
-      "locked_version": "7.0.0",
-      "git": "git://github.com/stackforge/cookbook-openstack-network.git",
-      "ref": "c78c152ec41692a9c2b8d23598ee0518b33247ec"
-    },
-    "openstack-ops-database": {
-      "locked_version": "7.0.0",
-      "git": "git://github.com/stackforge/cookbook-openstack-ops-database.git",
-      "ref": "cf8e48039bef2a6ff3a8215cd5a79d8193d6cefd"
+    "openstack-object-storage": {
+      "locked_version": "1.1.0",
+      "git": "git://github.com/stackforge/cookbook-openstack-object-storage.git",
+      "ref": "0a4a6262eba4da183e03f672bfe809f815028a5b"
     },
     "etcd": {
       "locked_version": "1.2.3"
@@ -100,11 +80,29 @@
     "xfs": {
       "locked_version": "1.1.0"
     },
+    "memcached": {
+      "locked_version": "1.4.0"
+    },
+    "runit": {
+      "locked_version": "1.1.6"
+    },
     "sysctl": {
       "locked_version": "0.3.3"
     },
-    "apache2": {
-      "locked_version": "1.6.6"
+    "statsd": {
+      "locked_version": "0.0.1"
+    },
+    "git": {
+      "locked_version": "2.5.2"
+    },
+    "dmg": {
+      "locked_version": "1.1.0"
+    },
+    "windows": {
+      "locked_version": "1.10.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
     }
   }
 }
