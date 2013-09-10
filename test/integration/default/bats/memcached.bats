@@ -8,6 +8,6 @@
   netstat -tan | grep 11211
 }
 
-#@test "memcached stats ok" {
-#  /opt/busser/suites/bats/status.sh | telnet
-#}
+@test "memcached stats ok" {
+  echo "stats" | nc 10.0.2.15 11211 | grep "STAT pid"
+}

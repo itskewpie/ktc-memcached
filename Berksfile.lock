@@ -48,8 +48,8 @@
       "git": "git://github.com/spheromak/services-cookbook.git",
       "ref": "6ce7c7f76081a5d4d742adee58a94acf94137cac"
     },
-    "curl": {
-      "locked_version": "1.1.0"
+    "ktc-testing": {
+      "path": "../ktc-testing"
     },
     "ubuntu": {
       "locked_version": "1.1.2"

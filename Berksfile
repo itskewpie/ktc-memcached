@@ -18,6 +18,6 @@ cookbook 'openstack-object-storage', github: 'stackforge/cookbook-openstack-obje
 cookbook 'services', github: 'spheromak/services-cookbook'
 
 group :integration do
-  cookbook 'curl'
+  cookbook 'ktc-testing', path: "../ktc-testing"
   cookbook 'ubuntu'
 end
