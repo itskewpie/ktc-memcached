@@ -7,13 +7,20 @@
 # All rights reserved - Do Not Redistribute
 #
 
-class Chef::Recipe
-  include KTCUtils
-end
+include_recipe "services"
+include_recipe "ktc-utils"
 
-d = get_openstack_service_template(get_interface_address("management"), "11211")
-register_member("memcached", d)
+ip = KTC::Network.address "management"
 
-node.default["memcached"]["listen"] = get_interface_address "management"
+Services::Connection.new run_context: run_context
+member = Services::Member.new node.default.fqdn,
+  service: "memcached",
+  port: 11211,
+  proto: "tcp",
+  ip: ip
+
+member.save
+
+node.default["memcached"]["listen"] = ip
 
 include_recipe "openstack-object-storage::memcached"

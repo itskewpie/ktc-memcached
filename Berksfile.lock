@@ -6,17 +6,22 @@
     "ktc-etcd": {
       "locked_version": "1.1.4",
       "git": "git://github.com/cloudware-cookbooks/ktc-etcd.git",
-      "ref": "5ae2bacf22b29875f8291320ac8047c2b6780185"
+      "ref": "6daab4a5eee14842e818ba30cc6bc9c88d61fe32"
     },
     "ktc-utils": {
-      "locked_version": "0.2.1",
+      "locked_version": "0.3.1",
       "git": "git://github.com/cloudware-cookbooks/ktc-utils.git",
-      "ref": "e4ef1d2dd57a8a365111e24f47f357dde321c072"
+      "ref": "c8315777e72e05779bb96d8775c0804519ec0e13"
+    },
+    "memcached": {
+      "locked_version": "1.5.1",
+      "git": "git://github.com/opscode-cookbooks/memcached.git",
+      "ref": "d527134987d4e53bb86bd2319b1f1cbf8171355a"
     },
     "openstack-block-storage": {
-      "locked_version": "7.0.0",
+      "locked_version": "7.0.1",
       "git": "git://github.com/stackforge/cookbook-openstack-block-storage.git",
-      "ref": "828ddd1868771c71784c6afea8dd3428fd2ce2fc"
+      "ref": "a5cff83f5c527ebb164f118e9312142738a15bee"
     },
     "openstack-common": {
       "locked_version": "0.4.3",
@@ -38,53 +43,58 @@
       "git": "git://github.com/stackforge/cookbook-openstack-object-storage.git",
       "ref": "0a4a6262eba4da183e03f672bfe809f815028a5b"
     },
+    "services": {
+      "locked_version": "1.0.6",
+      "git": "git://github.com/spheromak/services-cookbook.git",
+      "ref": "6ce7c7f76081a5d4d742adee58a94acf94137cac"
+    },
+    "curl": {
+      "locked_version": "1.1.0"
+    },
+    "ubuntu": {
+      "locked_version": "1.1.2"
+    },
     "etcd": {
-      "locked_version": "1.2.3"
+      "locked_version": "1.2.4"
     },
     "ark": {
-      "locked_version": "0.3.0"
+      "locked_version": "0.3.2"
     },
-    "partial_search": {
-      "locked_version": "1.0.2"
+    "runit": {
+      "locked_version": "1.2.0"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "yum": {
+      "locked_version": "2.3.2"
     },
     "apt": {
-      "locked_version": "2.1.0"
+      "locked_version": "2.1.1"
     },
     "selinux": {
       "locked_version": "0.5.6"
     },
     "python": {
-      "locked_version": "1.3.6"
-    },
-    "build-essential": {
       "locked_version": "1.4.0"
-    },
-    "yum": {
-      "locked_version": "2.3.2"
     },
     "database": {
       "locked_version": "1.4.0"
     },
     "mysql": {
-      "locked_version": "3.0.2"
+      "locked_version": "3.0.4"
     },
     "openssl": {
-      "locked_version": "1.0.2"
+      "locked_version": "1.1.0"
     },
     "postgresql": {
-      "locked_version": "3.0.2"
+      "locked_version": "3.0.4"
     },
     "aws": {
-      "locked_version": "0.101.2"
+      "locked_version": "0.101.4"
     },
     "xfs": {
       "locked_version": "1.1.0"
-    },
-    "memcached": {
-      "locked_version": "1.4.0"
-    },
-    "runit": {
-      "locked_version": "1.1.6"
     },
     "sysctl": {
       "locked_version": "0.3.3"
@@ -93,10 +103,10 @@
       "locked_version": "0.0.1"
     },
     "git": {
-      "locked_version": "2.5.2"
+      "locked_version": "2.6.0"
     },
     "dmg": {
-      "locked_version": "1.1.0"
+      "locked_version": "2.0.0"
     },
     "windows": {
       "locked_version": "1.10.0"
