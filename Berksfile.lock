@@ -6,12 +6,12 @@
     "ktc-etcd": {
       "locked_version": "1.1.4",
       "git": "git://github.com/cloudware-cookbooks/ktc-etcd.git",
-      "ref": "6daab4a5eee14842e818ba30cc6bc9c88d61fe32"
+      "ref": "85ff6bf8451dec06dae181edecb594e0a85c4df3"
     },
     "ktc-utils": {
-      "locked_version": "0.3.1",
+      "locked_version": "0.3.2",
       "git": "git://github.com/cloudware-cookbooks/ktc-utils.git",
-      "ref": "c8315777e72e05779bb96d8775c0804519ec0e13"
+      "ref": "2ee6a15c28bd23ae7eff809060374e9d7412c733"
     },
     "memcached": {
       "locked_version": "1.5.1",
@@ -19,9 +19,9 @@
       "ref": "d527134987d4e53bb86bd2319b1f1cbf8171355a"
     },
     "openstack-block-storage": {
-      "locked_version": "7.0.1",
+      "locked_version": "7.0.3",
       "git": "git://github.com/stackforge/cookbook-openstack-block-storage.git",
-      "ref": "a5cff83f5c527ebb164f118e9312142738a15bee"
+      "ref": "bc00347db1b4e12caca5ccb21b1ec93237637d5c"
     },
     "openstack-common": {
       "locked_version": "0.4.3",
@@ -31,22 +31,27 @@
     "openstack-identity": {
       "locked_version": "7.0.0",
       "git": "git://github.com/stackforge/cookbook-openstack-identity.git",
-      "ref": "b881af26095cfa869a6970067c49597a0ee63586"
+      "ref": "f276a92eac9a781845147b0af71d627a60b75da6"
     },
     "openstack-image": {
       "locked_version": "7.0.0",
       "git": "git://github.com/stackforge/cookbook-openstack-image.git",
-      "ref": "722a973a09ef7c2d58ac010cd0659ca48a81c266"
+      "ref": "b42df8e3bcbec626d0691f7c84c9166c7d2c890c"
     },
     "openstack-object-storage": {
       "locked_version": "1.1.0",
       "git": "git://github.com/stackforge/cookbook-openstack-object-storage.git",
-      "ref": "0a4a6262eba4da183e03f672bfe809f815028a5b"
+      "ref": "54b7e7719af5edff343971d570bdfd2e8f162720"
     },
     "services": {
-      "locked_version": "1.0.6",
+      "locked_version": "1.0.9",
       "git": "git://github.com/spheromak/services-cookbook.git",
-      "ref": "6ce7c7f76081a5d4d742adee58a94acf94137cac"
+      "ref": "02c892eea3896a532394af24f3ab1f146a3f4a16"
+    },
+    "yum": {
+      "locked_version": "2.3.1",
+      "git": "git://github.com/spheromak/yum.git",
+      "ref": "8c3b6099c45b7f522b96f1a417e9bb9fa3d65b5b"
     },
     "ktc-testing": {
       "path": "../ktc-testing"
@@ -60,14 +65,14 @@
     "ark": {
       "locked_version": "0.3.2"
     },
+    "partial_search": {
+      "locked_version": "1.0.2"
+    },
     "runit": {
       "locked_version": "1.2.0"
     },
     "build-essential": {
       "locked_version": "1.4.2"
-    },
-    "yum": {
-      "locked_version": "2.3.2"
     },
     "apt": {
       "locked_version": "2.1.1"

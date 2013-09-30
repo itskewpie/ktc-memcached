@@ -16,6 +16,7 @@ cookbook "openstack-identity", github: "stackforge/cookbook-openstack-identity"
 cookbook "openstack-image", github: "stackforge/cookbook-openstack-image"
 cookbook 'openstack-object-storage', github: 'stackforge/cookbook-openstack-object-storage'
 cookbook 'services', github: 'spheromak/services-cookbook'
+cookbook 'yum', github: 'spheromak/yum', branch: 'integration'
 
 group :integration do
   cookbook 'ktc-testing', path: "../ktc-testing"
