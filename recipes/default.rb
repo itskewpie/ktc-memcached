@@ -13,7 +13,7 @@ include_recipe "ktc-utils"
 ip = KTC::Network.address "management"
 
 Services::Connection.new run_context: run_context
-member = Services::Member.new node.default.fqdn,
+member = Services::Member.new node[:fqdn],
   service: "memcached",
   port: 11211,
   proto: "tcp",
