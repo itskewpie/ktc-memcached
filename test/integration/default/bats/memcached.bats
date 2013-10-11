@@ -9,5 +9,6 @@
 }
 
 @test "memcached stats ok" {
-  echo "stats" | nc 10.0.2.15 11211 | grep "STAT pid"
+  ip=`/sbin/ifconfig eth0 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}'`
+  echo "stats" | nc $ip 11211 | grep "STAT pid"
 }
