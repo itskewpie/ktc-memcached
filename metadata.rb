@@ -10,6 +10,7 @@ version '0.2.4'
   supports os
 end
 
+depends "ktc-monitor"
 depends "ktc-utils"
 depends "openstack-common", "~> 0.4.3"
 depends "openstack-object-storage", "~> 1.1.0"
